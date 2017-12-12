@@ -7,7 +7,7 @@
 
 	"windows":
 	{
-		"cmd": ["C:\\Program Files (x86)\\NWNScriptCompiler\\NWNScriptCompiler.exe","-i","C:\\Program Files (x86)\\NWNScriptCompiler\\Scripts","-v169","-a","-e","-o","-r","${file_path}","${file}"]
+		"cmd": ["D:\\kotor_mod\\NWNScriptCompiler\\NWNScriptCompiler.exe","-i","D:\\kotor_mod\\NWNScriptCompiler\\Scripts","-v169","-a","-e","-o","-r","${file_path}","${file}"]
 	},
 	"linux":
 	{
@@ -19,7 +19,7 @@
 			"name": "Rebuild everything",
 			"windows":
 			{
-				"cmd": ["C:\\Program Files (x86)\\NWNScriptCompiler\\NWNScriptCompiler.exe","-i","C:\\Program Files (x86)\\NWNScriptCompiler\\Scripts","-v169","-q","-g","-e","-o","-r","${file_path}","-y","-b","${file_path}","*.nss"]
+				"cmd": ["D:\\kotor_mod\\NWNScriptCompiler\\NWNScriptCompiler.exe","-i","D:\\kotor_mod\\NWNScriptCompiler\\Scripts","-v169","-q","-g","-e","-o","-r","${file_path}","-y","-b","${file_path}","*.nss"]
 			},
 			"linux":
 			{
