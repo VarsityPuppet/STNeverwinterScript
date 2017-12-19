@@ -16,6 +16,28 @@
 
 	"variants":[
 		{
+			"name": "K1",
+			"windows":
+			{
+				"cmd": ["D:\\kotor_mod\\NWNScriptCompiler\\NWNScriptCompiler.exe","-i","D:\\kotor_mod\\NWNScriptCompiler\\Scripts\\K1","-v169","-q","-g","-e","-o","-r","${file_path}","-y","-b","${file_path}","*.nss"]
+			},
+			"linux":
+			{
+				"cmd": ["wine /opt/NWNScriptCompiler/NWNScriptCompiler.exe -i /opt/NWNScriptCompiler/Scripts/K1 -v169 -q -g -e -o -r \"${file_path}\" -y -b \"${file_path}\" \\*.nss"]
+			}
+		},
+		{
+			"name": "K2",
+			"windows":
+			{
+				"cmd": ["D:\\kotor_mod\\NWNScriptCompiler\\NWNScriptCompiler.exe","-i","D:\\kotor_mod\\NWNScriptCompiler\\Scripts\\K2","-v169","-q","-g","-e","-o","-r","${file_path}","-y","-b","${file_path}","*.nss"]
+			},
+			"linux":
+			{
+				"cmd": ["wine /opt/NWNScriptCompiler/NWNScriptCompiler.exe -i /opt/NWNScriptCompiler/Scripts/K2 -v169 -q -g -e -o -r \"${file_path}\" -y -b \"${file_path}\" \\*.nss"]
+			}
+		},
+		{
 			"name": "Rebuild everything",
 			"windows":
 			{
