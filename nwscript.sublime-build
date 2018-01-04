@@ -38,6 +38,17 @@
 			}
 		},
 		{
+			"name": "nwnnsscomp K2",
+			"windows":
+			{
+				"cmd": ["D:\\kotor_mod\\nwnnsscomp\\nwnnsscomp.exe", "-c", "${file_path}.nss", "-o", "${file_path}.ncs", "-g", "2"]
+			},
+			"linux":
+			{
+				"cmd": ["wine /opt/NWNScriptCompiler/NWNScriptCompiler.exe -i /opt/NWNScriptCompiler/Scripts/K2 -v169 -q -g -e -o -r \"${file_path}\" -y -b \"${file_path}\" \\*.nss"]
+			}
+		},
+		{
 			"name": "Rebuild everything",
 			"windows":
 			{
